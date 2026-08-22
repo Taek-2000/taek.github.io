@@ -74,13 +74,27 @@ An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover 
 </div>
 </li>
 
-<li class="pub-item">
-<span class="pub-no">1</span>
+<<li class="pub-item">
+<span class="pub-no">1.</span>
+
 <div>
-<a class="pub-entry" href="https://doi.org/10.1038/s41477-025-02028-3" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors">Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kwon, Kyungyoon Kim, Sujeong Je, Hoon Jung, Geon Heo, Youngsung Joo, Yasuyo Yamaoka, and Yuree Lee</span>.
+<a class="pub-entry"
+   href="https://doi.org/10.1038/s41477-025-02028-3"
+   target="_blank"
+   rel="noopener noreferrer">
+<span class="pub-authors">
+Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kwon, Kyungyoon Kim, Sujeong Je, Hoon Jung, Geon Heo, Youngsung Joo, Yasuyo Yamaoka, and Yuree Lee
+</span>.
 Wounding induces multilayered barrier formation in mature leaves via phytohormone signalling and ATML1-mediated epidermal specification.
 <em class="pub-journal">Nature Plants</em> 11, 1298–1315 (2025).
+</a>
+<a class="pub-card"
+   href="https://doi.org/10.1038/s41477-025-02028-3"
+   target="_blank"
+   rel="noopener noreferrer">
+<img class="pub-card__img"
+     src="../images/papers/1.jpg"
+     alt="Wound-induced multilayered barrier formation in Arabidopsis leaves">
 </a>
 </div>
 </li>
