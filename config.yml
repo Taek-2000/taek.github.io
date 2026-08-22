@@ -1,110 +1,113 @@
-baseURL: "https://taek.github.io/" 
+baseURL: "https://taek-2000.github.io/taek.github.io/"
 title: Woo-Taek Jeon
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+
 pagination:
   pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: Research
-          url: research/
-          weight: 2 
-        - name: Papers
-          url: paper/
-          weight: 3
-        - name: Ideas
-          url: idea/
-          weight: 4
-        - name: Photo
-          url: photo/
-          weight: 5 
-         - name: Methods
-          url: method/
-          weight: 6         
-        - name: Lab
-          url: https://biosci.snu.ac.kr/pcb
-          weight: 7
+  main:
+    - name: Research
+      url: research/
+      weight: 2
+    - name: Papers
+      url: paper/
+      weight: 3
+    - name: Ideas
+      url: idea/
+      weight: 4
+    - name: Photo
+      url: photo/
+      weight: 5
+    - name: Methods
+      url: method/
+      weight: 6
+    - name: Lab
+      url: https://biosci.snu.ac.kr/pcb
+      weight: 7
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Woo-Taek Jeon
-    # googleAnalyticsID: G-XXXXX
-    DateFormat: August 2026
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: [books, courses, papers, data]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: picture.jpeg
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Research
-              url: research/
-            - name: Papers
-              url: paper/
-            - name: Ideas
-              url: idea/
-            - name: Photo
-              url: photo/
-            - name: Methods
-              url: method/
-            - name: Lab
-              url: https://biosci.snu.ac.kr/pcb
+  description: "Woo-Taek Jeon's personal academic website: research, papers, ideas, methods, and photography."
+  author: Woo-Taek Jeon
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:dnxor2275@snu.ac.kr
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=WUtfopcAAAAJ&hl=en
-        - name: GitHub
-          url: https://github.com/user
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: [research, paper, idea, photo, method]
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
 
+  profileMode:
+    enabled: true
+    title: Woo-Taek Jeon
+    subtitle: "Plant scientist interested in plant development, environmental responses, and plant surface biology."
+    imageUrl: picture.jpeg
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Research
+        url: research/
+      - name: Papers
+        url: paper/
+      - name: Ideas
+        url: idea/
+      - name: Photo
+        url: photo/
+      - name: Methods
+        url: method/
+      - name: Lab
+        url: https://biosci.snu.ac.kr/pcb
 
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: Woo-Taek Jeon
-      icon: favicon.ico
-      iconHeight: 18
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    - name: Email
+      url: mailto:dnxor2275@snu.ac.kr
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?user=WUtfopcAAAAJ&hl=en
+    - name: GitHub
+      url: https://github.com/Taek-2000
+
+  assets:
+    disableScrollBarStyle: true
+
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+
+  label:
+    text: Woo-Taek Jeon
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
