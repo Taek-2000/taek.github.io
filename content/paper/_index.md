@@ -17,6 +17,15 @@ title: "Papers"
 Anther dehiscence: Mechanisms, regulation, and environmental sensitivity.
 <em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
 </a>
+</a>
+<a class="pub-card"
+   href="https://doi.org/10.1093/pcp/pcag115"
+   target="_blank"
+   rel="noopener noreferrer">
+<img class="pub-card__img"
+     src="../images/papers/6.jpg"
+     alt="Hello. I'm error">
+</a>
 </div>
 </li>
 
@@ -27,6 +36,15 @@ Anther dehiscence: Mechanisms, regulation, and environmental sensitivity.
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Jeong-A Kim, Ahyeon Cheon, Ye-Sol Shin, Shawn S. Y. Lee, and Yuree Lee</span>.
 Root cap cuticles confer a transient, penetration-optimised phase during early seedling establishment.
 <em class="pub-journal">Plant, Cell &amp; Environment</em> 49, 6384–6395 (2026).
+</a>
+</a>
+<a class="pub-card"
+   href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622"
+   target="_blank"
+   rel="noopener noreferrer">
+<img class="pub-card__img"
+     src="../images/papers/5.png"
+     alt="Hello. I'm error">
 </a>
 </div>
 </li>
