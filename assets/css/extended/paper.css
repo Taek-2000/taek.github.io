@@ -98,22 +98,50 @@ body:has(.paper-page) {
     grid-template-columns: 1.7rem 1fr;
   }
 }
+
 .paper-page .pub-card {
+  position: relative;
   display: block;
   width: min(100%, 540px);
-  margin-top: 0.8rem;
+  margin-top: 0.9rem;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12) !important;
+  cursor: pointer;
+  transform: translateY(0) rotate(0);
+  transition: transform .22s ease, box-shadow .22s ease;
+}
+
+.paper-page .pub-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 35%,
+    rgba(255, 255, 255, .20) 48%,
+    transparent 60%
+  );
+  opacity: 0;
+  transform: translateX(-40%);
+  transition: opacity .22s ease, transform .35s ease;
+  pointer-events: none;
+}
+
+.paper-page .pub-card:hover {
+  opacity: 1;
+  transform: translateY(-6px) rotate(-0.5deg);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .22) !important;
+}
+
+.paper-page .pub-card:hover::after {
+  opacity: 1;
+  transform: translateX(40%);
 }
 
 .paper-page .pub-card__img {
   display: block;
   width: 100%;
   height: auto;
-}
-
-.paper-page .pub-card:hover {
-  opacity: 0.88;
 }
