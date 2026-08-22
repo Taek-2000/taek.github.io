@@ -81,12 +81,12 @@ params:
   socialIcons:
     - name: CV
       url: cv.pdf
-    - name: Email
-      url: mailto:dnxor2275@snu.ac.kr
     - name: Google Scholar
       url: https://scholar.google.com/citations?user=WUtfopcAAAAJ&hl=en
     - name: GitHub
       url: https://github.com/Taek-2000
+    - name: Email
+      url: mailto:dnxor2275@snu.ac.kr
 
   assets:
     disableScrollBarStyle: true
