@@ -74,9 +74,8 @@ An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover 
 </div>
 </li>
 
-<<li class="pub-item">
+<li class="pub-item">
 <span class="pub-no">1.</span>
-
 <div>
 <a class="pub-entry"
    href="https://doi.org/10.1038/s41477-025-02028-3"
@@ -93,7 +92,7 @@ Wounding induces multilayered barrier formation in mature leaves via phytohormon
    target="_blank"
    rel="noopener noreferrer">
 <img class="pub-card__img"
-     src="../images/papers/1.png"
+     src="../images/papers/1.jpg"
      alt="Wound-induced multilayered barrier formation in Arabidopsis leaves">
 </a>
 </div>
