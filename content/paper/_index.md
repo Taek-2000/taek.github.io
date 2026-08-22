@@ -18,14 +18,14 @@ Anther dehiscence: Mechanisms, regulation, and environmental sensitivity.
 <em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
 </a>
 </a>
-<a class="pub-card"
-   href="https://doi.org/10.1093/pcp/pcag115"
-   target="_blank"
-   rel="noopener noreferrer">
-<img class="pub-card__img"
-     src="../images/papers/6.jpg"
-     alt="Hello. I'm error">
-</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/6.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/6.jpg"
+       alt="Hello. I'm error !">
+</button>
 </div>
 </li>
 
@@ -38,14 +38,14 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
 <em class="pub-journal">Plant, Cell &amp; Environment</em> 49, 6384–6395 (2026).
 </a>
 </a>
-<a class="pub-card"
-   href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622"
-   target="_blank"
-   rel="noopener noreferrer">
-<img class="pub-card__img"
-     src="../images/papers/5.png"
-     alt="Hello. I'm error">
-</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/5.png"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/5.png"
+       alt="Hello. I'm error !">
+</button>
 </div>
 </li>
 
@@ -57,14 +57,14 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
 A hierarchical abscission program regulates reproductive allocation in <em>Prunus × yedoensis</em> and <em>Prunus sargentii</em>.
 <em class="pub-journal">Horticulture Research</em> 13, uhaf317 (2026).
 </a>
-<a class="pub-card"
-   href="https://doi.org/10.1093/hr/uhaf317"
-   target="_blank"
-   rel="noopener noreferrer">
-<img class="pub-card__img"
-     src="../images/papers/4.jpg"
-     alt="Hello. I'm error">
-</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/4.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/4.jpg"
+       alt="Hello. I'm error !">
+</button>
 </div>
 </li>
 
@@ -76,14 +76,14 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
 Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.
 <em class="pub-journal">Cell Reports</em> 45, 116707 (2026).
 </a>
-<a class="pub-card"
-   href="https://doi.org/10.1016/j.celrep.2025.116707"
-   target="_blank"
-   rel="noopener noreferrer">
-<img class="pub-card__img"
-     src="../images/papers/3.jpg"
-     alt="Hello. I'm error">
-</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/3.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/3.jpg"
+       alt="Hello. I'm error !">
+</button>
 
 <p class="pub-note">
 - memo
@@ -107,14 +107,14 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover in <em>Arabidopsis</em>.
 <em class="pub-journal">iScience</em> 28, 114056 (2025).
 </a>
-<a class="pub-card"
-   href="https://doi.org/10.1016/j.isci.2025.114056"
-   target="_blank"
-   rel="noopener noreferrer">
-<img class="pub-card__img"
-     src="../images/papers/2.png"
-     alt="Hello. I'm error">
-</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/2.png"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/1.png"
+       alt="Hello. I'm error !">
+</button>
 </div>
 </li>
 
@@ -131,47 +131,24 @@ Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kw
 Wounding induces multilayered barrier formation in mature leaves via phytohormone signalling and ATML1-mediated epidermal specification.
 <em class="pub-journal">Nature Plants</em> 11, 1298–1315 (2025).
 </a>
-<a class="pub-card"
-   href="https://doi.org/10.1038/s41477-025-02028-3"
-   target="_blank"
-   rel="noopener noreferrer">
-<img class="pub-card__img"
-     src="../images/papers/1.png"
-     alt="Hello. I'm error">
-</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/1.png"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/1.png"
+       alt="Hello. I'm error !">
+</button>
 </div>
 </li>
 
 </ol>
 </section>
 
+<div class="image-lightbox" id="image-lightbox" aria-hidden="true">
+  <button class="image-lightbox__close" type="button" aria-label="Close image">×</button>
+  <img class="image-lightbox__img" src="" alt="">
+</div>
 </div>
 
-<script>
-(() => {
-  function enableCardTilt() {
-    document.querySelectorAll(".paper-page .pub-card").forEach((card) => {
-      card.addEventListener("pointermove", (event) => {
-        const rect = card.getBoundingClientRect();
 
-        const x = (event.clientX - rect.left) / rect.width - 0.5;
-        const y = (event.clientY - rect.top) / rect.height - 0.5;
-
-        card.style.transform =
-          `perspective(700px) translateY(-5px) rotateX(${-y * 12}deg) rotateY(${x * 12}deg)`;
-      });
-
-      card.addEventListener("pointerleave", () => {
-        card.style.transform =
-          "perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg)";
-      });
-    });
-  }
-
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", enableCardTilt);
-  } else {
-    enableCardTilt();
-  }
-})();
-</script>
