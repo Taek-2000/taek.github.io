@@ -1,7 +1,7 @@
 /* Papers 페이지: PaperMod 기본 색상과 통일 */
 .paper-page {
   color: var(--primary);
-  font-size: 0.88rem;
+  font-size: 0.94rem;
 }
 
 body:has(.paper-page) {
@@ -87,7 +87,7 @@ body:has(.paper-page) {
 
 @media (max-width: 720px) {
   .paper-page {
-    font-size: 0.84rem;
+    font-size: 0.90rem;
   }
 
   .paper-page .pub-year {
