@@ -64,7 +64,9 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 <img class="pub-card__img"
      src="../images/papers/3.jpg"
      alt="Hello. I'm error">
-<p class="pub-note">High humidity acts as a reversible developmental cue that disrupts epidermal identity and reproductive development.</p>
+<p class="pub-note">
+- memo
+</p>
 </div>
 </li>
 
