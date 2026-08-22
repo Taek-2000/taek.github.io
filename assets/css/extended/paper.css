@@ -1,126 +1,100 @@
-/* Papers 페이지 전용 색상 */
+/* Papers 페이지: PaperMod 기본 색상과 통일 */
 .paper-page {
-  --bg: #0f1a2b;
-  --text: #e6eef7;
-  --accent: #1ed4d4;
-  --accent2: #48c1ff;
-
-  color: var(--text);
+  color: var(--primary);
+  font-size: 0.88rem;
 }
 
-/* Papers 페이지 배경 */
 body:has(.paper-page) {
-  background: #0f1a2b;
-  color: #e6eef7;
+  background: var(--theme);
+  color: var(--primary);
 }
 
-/* 연도별 논문 구역 */
+/* 연도 */
 .paper-page .pub-section {
-  margin: 26px 0;
+  margin: 2rem 0;
 }
 
 .paper-page .pub-year {
-  margin: 28px 0 10px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgba(255, 255, 255, .28);
+  margin: 0 0 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
   font-size: 1.3rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 /* 논문 목록 */
 .paper-page .pub-list {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .paper-page .pub-item {
   display: grid;
-  grid-template-columns: auto 1fr;
-  gap: .8ch;
-  margin: 12px 0;
-  line-height: 1.65;
-  align-items: start;
+  grid-template-columns: 2rem 1fr;
+  gap: 0.35rem;
+  margin: 0.7rem 0;
+  line-height: 1.55;
 }
 
 .paper-page .pub-no {
-  min-width: 3.2ch;
-  color: rgba(230, 238, 247, .75);
-  font-weight: 700;
+  color: var(--secondary);
+  font-weight: 600;
 }
 
-/* 논문 제목·본문 링크 */
-.paper-page .pub-entry {
-  color: var(--text);
-  text-decoration: none;
-  transition: color .18s ease;
+/* 논문 링크: 밑줄과 PaperMod 기본 링크 효과 제거 */
+.paper-page .pub-entry,
+.paper-page .pub-entry:visited,
+.paper-page .pub-entry:hover,
+.paper-page .pub-entry:focus {
+  color: var(--primary);
+  text-decoration: none !important;
+  box-shadow: none !important;
 }
 
+/* 마우스를 올렸을 때만 은은하게 변화 */
 .paper-page .pub-entry:hover {
-  color: var(--accent2);
+  color: var(--secondary);
 }
 
 /* 저널명 */
 .paper-page .pub-journal {
-  color: #7fbaff;
+  color: var(--secondary);
 }
 
-.paper-page .pub-entry:hover .pub-journal {
-  color: #b6d7ff;
-}
-
-/* 내 이름 강조 */
+/* 본인 이름 */
 .paper-page .pub-authors strong {
-  color: var(--accent);
-  font-weight: 900;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-
-/* 공동 제1저자 */
-.paper-page .author--cofirst {
-  font-weight: 900;
-  background: linear-gradient(
-    to top,
-    rgba(72, 193, 255, .35) 0 55%,
-    transparent 55% 100%
-  );
-  padding: 0 .08em;
-}
-
-/* 교신저자 */
-.paper-page .author--corr {
-  color: #061418;
-  font-weight: 900;
-  background: linear-gradient(90deg, var(--accent), var(--accent2));
-  padding: .05em .4em;
-  border-radius: 999px;
+  color: var(--primary);
+  font-weight: 750;
+  text-decoration: none;
 }
 
 /* 논문 아래 메모 */
 .paper-page .pub-note {
-  margin: 6px 0 0;
-  color: rgba(230, 238, 247, .75);
+  margin: 0.25rem 0 0;
+  color: var(--secondary);
+  font-size: 0.84rem;
   font-style: italic;
+  line-height: 1.45;
 }
 
 .paper-page .pub-note a {
-  color: #9fc8ff;
+  color: var(--secondary);
+  text-decoration: none;
+  box-shadow: none;
 }
 
-/* 논문 figure 카드 */
-.paper-page .pub-card {
-  display: inline-block;
-  width: min(100%, 720px);
-  margin-top: 12px;
-  overflow: hidden;
-  border-radius: 12px;
-  background: #0b1626;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, .25);
-}
+@media (max-width: 720px) {
+  .paper-page {
+    font-size: 0.84rem;
+  }
 
-.paper-page .pub-card__img {
-  display: block;
-  width: 100%;
-  height: auto;
+  .paper-page .pub-year {
+    font-size: 1.15rem;
+  }
+
+  .paper-page .pub-item {
+    grid-template-columns: 1.7rem 1fr;
+  }
 }
