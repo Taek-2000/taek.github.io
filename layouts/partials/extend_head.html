@@ -1,0 +1,2 @@
+{{ $papersCSS := resources.Get "css/extended/papers.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $papersCSS.RelPermalink }}">
