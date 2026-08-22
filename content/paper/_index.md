@@ -10,7 +10,7 @@ title: "Papers"
 <ol class="pub-list">
 
 <li class="pub-item">
-<span class="pub-no">1.</span>
+<span class="pub-no">6</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Ahyeon Cheon, and Yuree Lee</span>.
@@ -21,7 +21,7 @@ Anther dehiscence: Mechanisms, regulation, and environmental sensitivity.
 </li>
 
 <li class="pub-item">
-<span class="pub-no">2.</span>
+<span class="pub-no">5</span>
 <div>
 <a class="pub-entry" href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Jeong-A Kim, Ahyeon Cheon, Ye-Sol Shin, Shawn S. Y. Lee, and Yuree Lee</span>.
@@ -32,7 +32,7 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
 </li>
 
 <li class="pub-item">
-<span class="pub-no">3.</span>
+<span class="pub-no">4</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/hr/uhaf317" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Jeong-A Kim, Ahyeon Cheon, Shawn S. Y. Lee, Joohyun Kang, Jung-Min Lee, and Yuree Lee</span>.
@@ -43,7 +43,7 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
 </li>
 
 <li class="pub-item">
-<span class="pub-no">4.</span>
+<span class="pub-no">3</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1016/j.celrep.2025.116707" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Joohyun Kang, Jung-Min Lee, Kyungyoon Kim, Ahyeon Cheon, Shawn S. Y. Lee, Minsoo Han, Hoon Jung, Sujeong Je, Yasuyo Yamaoka, and Yuree Lee</span>.
@@ -64,7 +64,7 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 <ol class="pub-list">
 
 <li class="pub-item">
-<span class="pub-no">1.</span>
+<span class="pub-no">2</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1016/j.isci.2025.114056" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Ye-Sol Shin, <strong>Woo-Taek Jeon</strong>, Hoon Jung, Thanh Ha Thi Do, and Yuree Lee</span>.
@@ -75,7 +75,7 @@ An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover 
 </li>
 
 <li class="pub-item">
-<span class="pub-no">2.</span>
+<span class="pub-no">1</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1038/s41477-025-02028-3" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kwon, Kyungyoon Kim, Sujeong Je, Hoon Jung, Geon Heo, Youngsung Joo, Yasuyo Yamaoka, and Yuree Lee</span>.
