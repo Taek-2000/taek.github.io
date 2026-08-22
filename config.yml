@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://taek.github.io/" 
+title: Woo-Taek Jeon
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,27 +12,30 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        - name: Research
+          url: research/
+          weight: 2 
         - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
+          url: paper/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Ideas
+          url: idea/
+          weight: 4
+        - name: Photo
+          url: photo/
+          weight: 5 
+         - name: Methods
+          url: method/
+          weight: 6         
+        - name: Lab
+          url: https://biosci.snu.ac.kr/pcb
+          weight: 7
 
 params:
     description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    author: Woo-Taek Jeon
     # googleAnalyticsID: G-XXXXX
-    DateFormat: January 2006
+    DateFormat: August 2026
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -60,44 +63,29 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
+            - name: Research
+              url: research/
             - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+              url: paper/
+            - name: Ideas
+              url: idea/
+            - name: Photo
+              url: photo/
+            - name: Methods
+              url: method/
+            - name: Lab
+              url: https://biosci.snu.ac.kr/pcb
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:dnxor2275@snu.ac.kr
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
+          url: https://scholar.google.com/citations?user=WUtfopcAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +93,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: Moritz-Maria von Igelfeld
+      text: Woo-Taek Jeon
       icon: favicon.ico
       iconHeight: 18
 
