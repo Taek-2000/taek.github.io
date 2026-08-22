@@ -113,6 +113,8 @@ This repository is licensed under the [MIT License](LICENSE.md).
 - [Muhammed Bulutay's website](https://muhammedbulutay.com)
 - [Nikhil George's website](https://ngeorge.net)
 - [Matthew O'Keefe's website](https://mfokeefe.github.io)
+- [Joshua Maynard's website](https://jshmnrd.ca)
+- [Suraj Kumar's website](https://surajkumar.me)
 
 ## Related resources
 
