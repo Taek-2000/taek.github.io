@@ -1,7 +1,7 @@
-/* Papers 페이지: PaperMod 기본 색상과 통일 */
+/* Papers page: use PaperMod's native colour tokens */
 .paper-page {
   color: var(--primary);
-  font-size: 1rem;
+  font-size: 1.08rem;
 }
 
 body:has(.paper-page) {
@@ -9,21 +9,19 @@ body:has(.paper-page) {
   color: var(--primary);
 }
 
-/* 연도 */
 .paper-page .pub-section {
   margin: 2rem 0;
 }
 
 .paper-page .pub-year {
-  margin: 0 0 0.8rem;
-  padding-bottom: 0.5rem;
+  margin: 0 0 .85rem;
+  padding-bottom: .5rem;
   border-bottom: 1px solid var(--border);
   color: var(--primary);
-  font-size: 1.3rem;
+  font-size: 1.38rem;
   font-weight: 700;
 }
 
-/* 논문 목록 */
 .paper-page .pub-list {
   margin: 0;
   padding: 0;
@@ -33,9 +31,9 @@ body:has(.paper-page) {
 .paper-page .pub-item {
   display: grid;
   grid-template-columns: 2rem 1fr;
-  gap: 0.35rem;
-  margin: 0.7rem 0;
-  line-height: 1.55;
+  gap: .35rem;
+  margin: .8rem 0 1.15rem;
+  line-height: 1.6;
 }
 
 .paper-page .pub-no {
@@ -43,7 +41,6 @@ body:has(.paper-page) {
   font-weight: 600;
 }
 
-/* 논문 링크: 밑줄과 PaperMod 기본 링크 효과 제거 */
 .paper-page .pub-entry,
 .paper-page .pub-entry:visited,
 .paper-page .pub-entry:hover,
@@ -53,61 +50,80 @@ body:has(.paper-page) {
   box-shadow: none !important;
 }
 
-/* 마우스를 올렸을 때만 은은하게 변화 */
 .paper-page .pub-entry:hover {
   color: var(--secondary);
 }
 
-/* 저널명 */
-.paper-page .pub-journal {
+.paper-page .pub-journal,
+.paper-page .pub-note {
   color: var(--secondary);
 }
 
-/* 본인 이름 */
 .paper-page .pub-authors strong {
   color: var(--primary);
   font-weight: 750;
   text-decoration: none;
 }
 
-/* 논문 아래 메모 */
 .paper-page .pub-note {
-  margin: 0.25rem 0 0;
-  color: var(--secondary);
-  font-size: 0.84rem;
+  margin: .25rem 0 0;
+  font-size: .92rem;
   font-style: italic;
   line-height: 1.45;
 }
 
-.paper-page .pub-note a {
-  color: var(--secondary);
-  text-decoration: none;
-  box-shadow: none;
-}
-
-@media (max-width: 720px) {
-  .paper-page {
-    font-size: 0.95rem;
-  }
-
-  .paper-page .pub-year {
-    font-size: 1.15rem;
-  }
-
-  .paper-page .pub-item {
-    grid-template-columns: 1.7rem 1fr;
-  }
-}
-
-/* Card image */
+/* Publication image card */
 .paper-page .pub-card {
-  appearance: none;
+  position: relative;
+  display: block;
+  width: min(100%, 320px);
+  margin-top: .9rem;
   padding: 0;
-  background: transparent;
-  text-align: left;
+  overflow: hidden;
+  appearance: none;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--entry);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+  cursor: zoom-in;
+  transform: perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg);
+  transform-style: preserve-3d;
+  transition: transform .12s ease, box-shadow .12s ease;
+  will-change: transform;
+  touch-action: manipulation;
 }
 
-/* 이미지 확대 창 */
+.paper-page .pub-card:hover,
+.paper-page .pub-card:focus-visible {
+  box-shadow: 0 14px 25px rgba(0, 0, 0, .22);
+}
+
+.paper-page .pub-card:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.paper-page .pub-card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.paper-page .pub-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, .2) 48%, transparent 60%);
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+
+.paper-page .pub-card:hover::after {
+  opacity: 1;
+}
+
+/* Full-size image viewer */
 .image-lightbox {
   position: fixed;
   inset: 0;
@@ -138,11 +154,35 @@ body:has(.paper-page) {
   position: fixed;
   top: 1rem;
   right: 1.25rem;
+  padding: 0;
   border: 0;
   background: transparent;
-  color: white;
+  color: #fff;
   font-size: 2.5rem;
   line-height: 1;
   cursor: pointer;
 }
+
+@media (max-width: 720px) {
+  .paper-page {
+    font-size: 1rem;
+  }
+
+  .paper-page .pub-year {
+    font-size: 1.2rem;
+  }
+
+  .paper-page .pub-item {
+    grid-template-columns: 1.7rem 1fr;
+  }
+
+  .paper-page .pub-card {
+    width: min(100%, 280px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .paper-page .pub-card {
+    transition: none;
+  }
 }
