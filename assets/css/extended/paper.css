@@ -1,0 +1,126 @@
+/* Papers 페이지 전용 색상 */
+.paper-page {
+  --bg: #0f1a2b;
+  --text: #e6eef7;
+  --accent: #1ed4d4;
+  --accent2: #48c1ff;
+
+  color: var(--text);
+}
+
+/* Papers 페이지 배경 */
+body:has(.paper-page) {
+  background: #0f1a2b;
+  color: #e6eef7;
+}
+
+/* 연도별 논문 구역 */
+.paper-page .pub-section {
+  margin: 26px 0;
+}
+
+.paper-page .pub-year {
+  margin: 28px 0 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, .28);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+/* 논문 목록 */
+.paper-page .pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.paper-page .pub-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .8ch;
+  margin: 12px 0;
+  line-height: 1.65;
+  align-items: start;
+}
+
+.paper-page .pub-no {
+  min-width: 3.2ch;
+  color: rgba(230, 238, 247, .75);
+  font-weight: 700;
+}
+
+/* 논문 제목·본문 링크 */
+.paper-page .pub-entry {
+  color: var(--text);
+  text-decoration: none;
+  transition: color .18s ease;
+}
+
+.paper-page .pub-entry:hover {
+  color: var(--accent2);
+}
+
+/* 저널명 */
+.paper-page .pub-journal {
+  color: #7fbaff;
+}
+
+.paper-page .pub-entry:hover .pub-journal {
+  color: #b6d7ff;
+}
+
+/* 내 이름 강조 */
+.paper-page .pub-authors strong {
+  color: var(--accent);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* 공동 제1저자 */
+.paper-page .author--cofirst {
+  font-weight: 900;
+  background: linear-gradient(
+    to top,
+    rgba(72, 193, 255, .35) 0 55%,
+    transparent 55% 100%
+  );
+  padding: 0 .08em;
+}
+
+/* 교신저자 */
+.paper-page .author--corr {
+  color: #061418;
+  font-weight: 900;
+  background: linear-gradient(90deg, var(--accent), var(--accent2));
+  padding: .05em .4em;
+  border-radius: 999px;
+}
+
+/* 논문 아래 메모 */
+.paper-page .pub-note {
+  margin: 6px 0 0;
+  color: rgba(230, 238, 247, .75);
+  font-style: italic;
+}
+
+.paper-page .pub-note a {
+  color: #9fc8ff;
+}
+
+/* 논문 figure 카드 */
+.paper-page .pub-card {
+  display: inline-block;
+  width: min(100%, 720px);
+  margin-top: 12px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #0b1626;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .25);
+}
+
+.paper-page .pub-card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
