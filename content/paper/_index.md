@@ -46,6 +46,7 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
 <img class="pub-card__img"
      src="../images/papers/4.jpg"
      alt="Hello. I'm error">
+</a>
 </div>
 </li>
 
@@ -64,6 +65,8 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 <img class="pub-card__img"
      src="../images/papers/3.jpg"
      alt="Hello. I'm error">
+</a>
+
 <p class="pub-note">
 - memo
 </p>
