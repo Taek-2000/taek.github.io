@@ -93,7 +93,7 @@ Wounding induces multilayered barrier formation in mature leaves via phytohormon
    target="_blank"
    rel="noopener noreferrer">
 <img class="pub-card__img"
-     src="../images/papers/1.jpg"
+     src="../images/papers/1.png"
      alt="Wound-induced multilayered barrier formation in Arabidopsis leaves">
 </a>
 </div>
