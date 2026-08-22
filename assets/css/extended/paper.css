@@ -1,7 +1,7 @@
 /* Papers 페이지: PaperMod 기본 색상과 통일 */
 .paper-page {
   color: var(--primary);
-  font-size: 0.94rem;
+  font-size: 1rem;
 }
 
 body:has(.paper-page) {
@@ -87,7 +87,7 @@ body:has(.paper-page) {
 
 @media (max-width: 720px) {
   .paper-page {
-    font-size: 0.90rem;
+    font-size: 0.95rem;
   }
 
   .paper-page .pub-year {
@@ -99,18 +99,24 @@ body:has(.paper-page) {
   }
 }
 
+/* Card image */
 .paper-page .pub-card {
+  --rotate-x: 0deg;
+  --rotate-y: 0deg;
+
   position: relative;
   display: block;
-  width: min(100%, 540px);
+  width: min(100%, 360px);
   margin-top: 0.9rem;
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .12) !important;
   cursor: pointer;
-  transform: translateY(0) rotate(0);
-  transition: transform .22s ease, box-shadow .22s ease;
+  transform: perspective(700px) translateY(0) rotateX(var(--rotate-x)) rotateY(var(--rotate-y));
+  transform-style: preserve-3d;
+  transition: transform .14s ease, box-shadow .14s ease;
+  will-change: transform;
 }
 
 .paper-page .pub-card::after {
@@ -120,28 +126,30 @@ body:has(.paper-page) {
   background: linear-gradient(
     115deg,
     transparent 35%,
-    rgba(255, 255, 255, .20) 48%,
+    rgba(255, 255, 255, .22) 48%,
     transparent 60%
   );
   opacity: 0;
-  transform: translateX(-40%);
-  transition: opacity .22s ease, transform .35s ease;
   pointer-events: none;
+  transition: opacity .15s ease;
 }
 
 .paper-page .pub-card:hover {
-  opacity: 1;
-  transform: translateY(-6px) rotate(-0.5deg);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, .22) !important;
+  box-shadow: 0 14px 25px rgba(0, 0, 0, .22) !important;
 }
 
 .paper-page .pub-card:hover::after {
   opacity: 1;
-  transform: translateX(40%);
 }
 
 .paper-page .pub-card__img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 720px) {
+  .paper-page .pub-card {
+    width: min(100%, 320px);
+  }
 }
