@@ -39,6 +39,13 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
 A hierarchical abscission program regulates reproductive allocation in <em>Prunus × yedoensis</em> and <em>Prunus sargentii</em>.
 <em class="pub-journal">Horticulture Research</em> 13, uhaf317 (2026).
 </a>
+<a class="pub-card"
+   href="https://doi.org/10.1093/hr/uhaf317"
+   target="_blank"
+   rel="noopener noreferrer">
+<img class="pub-card__img"
+     src="../images/papers/4.jpg"
+     alt="Hello. I'm error">
 </div>
 </li>
 
@@ -50,7 +57,13 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
 Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.
 <em class="pub-journal">Cell Reports</em> 45, 116707 (2026).
 </a>
-
+<a class="pub-card"
+   href="https://doi.org/10.1016/j.celrep.2025.116707"
+   target="_blank"
+   rel="noopener noreferrer">
+<img class="pub-card__img"
+     src="../images/papers/3.jpg"
+     alt="Hello. I'm error">
 <p class="pub-note">High humidity acts as a reversible developmental cue that disrupts epidermal identity and reproductive development.</p>
 </div>
 </li>
@@ -70,6 +83,14 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 <span class="pub-authors">Ye-Sol Shin, <strong>Woo-Taek Jeon</strong>, Hoon Jung, Thanh Ha Thi Do, and Yuree Lee</span>.
 An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover in <em>Arabidopsis</em>.
 <em class="pub-journal">iScience</em> 28, 114056 (2025).
+</a>
+<a class="pub-card"
+   href="https://doi.org/10.1016/j.isci.2025.114056"
+   target="_blank"
+   rel="noopener noreferrer">
+<img class="pub-card__img"
+     src="../images/papers/2.png"
+     alt="Hello. I'm error">
 </a>
 </div>
 </li>
@@ -92,8 +113,8 @@ Wounding induces multilayered barrier formation in mature leaves via phytohormon
    target="_blank"
    rel="noopener noreferrer">
 <img class="pub-card__img"
-     src="../images/papers/1.jpg"
-     alt="Wound-induced multilayered barrier formation in Arabidopsis leaves">
+     src="../images/papers/1.png"
+     alt="Hello. I'm error">
 </a>
 </div>
 </li>
