@@ -1,2 +1,26 @@
 {{ $papersCSS := resources.Get "css/extended/papers.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $papersCSS.RelPermalink }}">
+
+<script defer>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".paper-page .pub-card").forEach((card) => {
+    card.addEventListener("pointermove", (event) => {
+      const rect = card.getBoundingClientRect();
+
+      const x = (event.clientX - rect.left) / rect.width - 0.5;
+      const y = (event.clientY - rect.top) / rect.height - 0.5;
+
+      const rotateX = -y * 12;
+      const rotateY = x * 12;
+
+      card.style.transform =
+        `perspective(700px) translateY(-5px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+
+    card.addEventListener("pointerleave", () => {
+      card.style.transform =
+        "perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg)";
+    });
+  });
+});
+</script>
