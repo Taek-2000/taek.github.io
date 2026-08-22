@@ -98,3 +98,22 @@ body:has(.paper-page) {
     grid-template-columns: 1.7rem 1fr;
   }
 }
+.paper-page .pub-card {
+  display: block;
+  width: min(100%, 540px);
+  margin-top: 0.8rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: none !important;
+}
+
+.paper-page .pub-card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.paper-page .pub-card:hover {
+  opacity: 0.88;
+}
