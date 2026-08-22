@@ -101,55 +101,48 @@ body:has(.paper-page) {
 
 /* Card image */
 .paper-page .pub-card {
-  position: relative;
-  display: block;
-  width: min(100%, 360px);
-  margin-top: 0.9rem;
-  overflow: hidden;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .12) !important;
-
-  cursor: pointer;
-  touch-action: none;
-
-  transform: perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg);
-  transform-style: preserve-3d;
-  transition: transform .14s ease, box-shadow .14s ease;
-  will-change: transform;
+  appearance: none;
+  padding: 0;
+  background: transparent;
+  text-align: left;
 }
 
-.paper-page .pub-card::after {
-  content: "";
-  position: absolute;
+/* 이미지 확대 창 */
+.image-lightbox {
+  position: fixed;
   inset: 0;
-  background: linear-gradient(
-    115deg,
-    transparent 35%,
-    rgba(255, 255, 255, .22) 48%,
-    transparent 60%
-  );
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, .82);
   opacity: 0;
-  pointer-events: none;
-  transition: opacity .15s ease;
+  visibility: hidden;
+  transition: opacity .2s ease, visibility .2s ease;
 }
 
-.paper-page .pub-card:hover {
-  box-shadow: 0 14px 25px rgba(0, 0, 0, .22) !important;
-}
-
-.paper-page .pub-card:hover::after {
+.image-lightbox.is-open {
   opacity: 1;
+  visibility: visible;
 }
 
-.paper-page .pub-card__img {
+.image-lightbox__img {
   display: block;
-  width: 100%;
-  height: auto;
+  max-width: min(92vw, 1200px);
+  max-height: 85vh;
+  border-radius: 8px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, .45);
 }
 
-@media (max-width: 720px) {
-  .paper-page .pub-card {
-    width: min(100%, 320px);
-  }
+.image-lightbox__close {
+  position: fixed;
+  top: 1rem;
+  right: 1.25rem;
+  border: 0;
+  background: transparent;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
 }
