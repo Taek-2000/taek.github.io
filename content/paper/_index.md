@@ -6,9 +6,7 @@ title: "Papers"
 
   <section class="pub-section">
     <h2 class="pub-year">2026</h2>
-
     <ol class="pub-list">
-
       <li class="pub-item">
         <span class="pub-no">1.</span>
         <div>
@@ -24,12 +22,11 @@ title: "Papers"
           </a>
         </div>
       </li>
-
       <li class="pub-item">
         <span class="pub-no">2.</span>
         <div>
           <a class="pub-entry"
-             href="https://scholar.google.com/citations?user=WUtfopcAAAAJ&hl=en"
+             href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622"
              target="_blank"
              rel="noopener noreferrer">
             <span class="pub-authors">
@@ -40,7 +37,6 @@ title: "Papers"
           </a>
         </div>
       </li>
-
       <li class="pub-item">
         <span class="pub-no">3.</span>
         <div>
@@ -56,7 +52,6 @@ title: "Papers"
           </a>
         </div>
       </li>
-
       <li class="pub-item">
         <span class="pub-no">4.</span>
         <div>
@@ -70,21 +65,17 @@ title: "Papers"
             Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.
             <em class="pub-journal">Cell Reports</em> 45, 116707 (2026).
           </a>
-
           <p class="pub-note">
             High humidity acts as a reversible developmental cue that disrupts epidermal identity and reproductive development.
           </p>
         </div>
       </li>
-
     </ol>
   </section>
 
   <section class="pub-section">
     <h2 class="pub-year">2025</h2>
-
     <ol class="pub-list">
-
       <li class="pub-item">
         <span class="pub-no">1.</span>
         <div>
@@ -100,7 +91,6 @@ title: "Papers"
           </a>
         </div>
       </li>
-
       <li class="pub-item">
         <span class="pub-no">2.</span>
         <div>
@@ -116,7 +106,6 @@ title: "Papers"
           </a>
         </div>
       </li>
-
     </ol>
   </section>
 
