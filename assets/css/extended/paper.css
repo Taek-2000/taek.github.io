@@ -101,9 +101,6 @@ body:has(.paper-page) {
 
 /* Card image */
 .paper-page .pub-card {
-  --rotate-x: 0deg;
-  --rotate-y: 0deg;
-
   position: relative;
   display: block;
   width: min(100%, 360px);
@@ -112,8 +109,11 @@ body:has(.paper-page) {
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, .12) !important;
+
   cursor: pointer;
-  transform: perspective(700px) translateY(0) rotateX(var(--rotate-x)) rotateY(var(--rotate-y));
+  touch-action: none;
+
+  transform: perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg);
   transform-style: preserve-3d;
   transition: transform .14s ease, box-shadow .14s ease;
   will-change: transform;
