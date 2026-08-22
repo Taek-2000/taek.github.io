@@ -112,7 +112,7 @@ An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover 
         data-image="../images/papers/2.png"
         data-alt="Hello. I'm error !">
   <img class="pub-card__img"
-       src="../images/papers/1.png"
+       src="../images/papers/2.png"
        alt="Hello. I'm error !">
 </button>
 </div>
