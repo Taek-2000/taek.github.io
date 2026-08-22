@@ -146,3 +146,32 @@ Wounding induces multilayered barrier formation in mature leaves via phytohormon
 </section>
 
 </div>
+
+<script>
+(() => {
+  function enableCardTilt() {
+    document.querySelectorAll(".paper-page .pub-card").forEach((card) => {
+      card.addEventListener("pointermove", (event) => {
+        const rect = card.getBoundingClientRect();
+
+        const x = (event.clientX - rect.left) / rect.width - 0.5;
+        const y = (event.clientY - rect.top) / rect.height - 0.5;
+
+        card.style.transform =
+          `perspective(700px) translateY(-5px) rotateX(${-y * 12}deg) rotateY(${x * 12}deg)`;
+      });
+
+      card.addEventListener("pointerleave", () => {
+        card.style.transform =
+          "perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg)";
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", enableCardTilt);
+  } else {
+    enableCardTilt();
+  }
+})();
+</script>
