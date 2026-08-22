@@ -1,0 +1,19 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".paper-page .pub-card").forEach((card) => {
+    card.addEventListener("mousemove", (event) => {
+      const rect = card.getBoundingClientRect();
+      const x = (event.clientX - rect.left) / rect.width - 0.5;
+      const y = (event.clientY - rect.top) / rect.height - 0.5;
+
+      card.style.setProperty("--rotate-x", `${-y * 10}deg`);
+      card.style.setProperty("--rotate-y", `${x * 10}deg`);
+    });
+
+    card.addEventListener("mouseleave", () => {
+      card.style.setProperty("--rotate-x", "0deg");
+      card.style.setProperty("--rotate-y", "0deg");
+    });
+  });
+});
+</script>
