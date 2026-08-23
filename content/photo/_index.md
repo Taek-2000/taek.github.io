@@ -275,9 +275,9 @@ title: "Photo"
   <img src="../images/photo/90.jpg" alt="Photograph 90" loading="lazy">
 </button>
 </div>
+</div>
 
 <div class="photo-lightbox" id="photo-lightbox" aria-hidden="true">
   <button class="photo-lightbox__close" type="button" aria-label="Close photo">×</button>
   <img class="photo-lightbox__image" src="" alt="">
-</div>
 </div>
