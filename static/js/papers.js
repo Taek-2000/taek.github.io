@@ -18,6 +18,8 @@ function initializePaperCards() {
     card.addEventListener("pointerleave", () => {
       card.style.transform =
         "perspective(700px) translateY(0) rotateX(0deg) rotateY(0deg)";
+      card.style.setProperty("--shine-x", "50%");
+      card.style.setProperty("--shine-y", "50%");
     });
 
     card.addEventListener("click", () => {
