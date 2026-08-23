@@ -1,0 +1,53 @@
+/* Methods page */
+.methods-page {
+  display: grid;
+  gap: .85rem;
+}
+
+.method-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.05rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--entry);
+  color: var(--primary);
+  text-decoration: none;
+  box-shadow: none;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+
+.method-card:hover,
+.method-card:focus-visible {
+  border-color: var(--secondary);
+  color: var(--primary);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .1);
+  transform: translateY(-2px);
+}
+
+.method-card:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.method-card__title {
+  font-size: 1.08rem;
+  font-weight: 650;
+}
+
+.method-card__meta {
+  flex: 0 0 auto;
+  color: var(--secondary);
+  font-size: .9rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .method-card {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .35rem;
+  }
+}
