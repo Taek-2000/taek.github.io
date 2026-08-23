@@ -41,10 +41,10 @@ title: "Papers"
 </a>
 <button class="pub-card"
         type="button"
-        data-image="../images/papers/5.png"
+        data-image="../images/papers/5.jpg"
         data-alt="Hello. I'm error !">
   <img class="pub-card__img"
-       src="../images/papers/5.png"
+       src="../images/papers/5.jpg"
        alt="Hello. I'm error !">
 </button>
 <ul class="pub-note">
