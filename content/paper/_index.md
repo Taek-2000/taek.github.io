@@ -14,7 +14,7 @@ title: "Papers"
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Ahyeon Cheon, and Yuree Lee</span>.
-Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW).
+<span class="pub-title">Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW).</span>
 <em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
 </a>
 <button class="pub-card"
@@ -25,9 +25,9 @@ Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW
        src="../images/papers/6.jpg"
        alt="Hello. I'm error !">
 </button>
-<p class="pub-note">
-- The mechanical basis of anther dehiscence—including dehydration and cell-wall modification—appears to require more integrated validation.
-</p>
+<ul class="pub-note">
+<li>The mechanical basis of anther dehiscence—including dehydration and cell-wall modification—appears to require more integrated validation.</li>
+</ul>
 </div>
 </li>
 
@@ -36,7 +36,7 @@ Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW
 <div>
 <a class="pub-entry" href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon*</strong>, Jeong-A Kim*, Ahyeon Cheon, Ye-Sol Shin, Shawn S. Y. Lee, and Yuree Lee</span>.
-Root cap cuticles confer a transient, penetration-optimised phase during early seedling establishment.
+<span class="pub-title">Root cap cuticles confer a transient, penetration-optimised phase during early seedling establishment.</span>
 <em class="pub-journal">Plant, Cell &amp; Environment</em> 49, 6384–6395 (2026).
 </a>
 <button class="pub-card"
@@ -47,11 +47,11 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
        src="../images/papers/5.png"
        alt="Hello. I'm error !">
 </button>
-<p class="pub-note">
-- How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize or establish distinct cuticular states, but the underlying reason remains unclear.
-- How does multilayered root-cap detachment occur? Are non-detached root-cap cells still alive and physically connected, or do they represent attached dead tissue, analogous to marcescence?
-- How does the root-cap cuticle regulate gravitropism?
-</p>
+<ul class="pub-note">
+<li>How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize or establish distinct cuticular states, but the underlying reason remains unclear.</li>
+<li>How does multilayered root-cap detachment occur? Are non-detached root-cap cells still alive and physically connected, or do they represent attached dead tissue, analogous to marcescence?</li>
+<li>How does the root-cap cuticle regulate gravitropism?</li>
+</ul>
 </div>
 </li>
 
@@ -60,7 +60,7 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/hr/uhaf317" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon*</strong>, Jeong-A Kim*, Ahyeon Cheon*, Shawn S. Y. Lee*, Joohyun Kang, Jung-Min Lee, and Yuree Lee</span>.
-A hierarchical abscission program regulates reproductive allocation in <em>Prunus × yedoensis</em> and <em>Prunus sargentii</em>.
+<span class="pub-title">A hierarchical abscission program regulates reproductive allocation in <em>Prunus × yedoensis</em> and <em>Prunus sargentii</em>.</span>
 <em class="pub-journal">Horticulture Research</em> 13, uhaf317 (2026).
 </a>
 <button class="pub-card"
@@ -71,12 +71,12 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
        src="../images/papers/4.jpg"
        alt="Hello. I'm error !">
 </button>
-<p class="pub-note">
-- How do fertilization-derived signals function as activators or repressors of abscission?
-- How do fertilization-driven and time-dependent signals differ, and where do they converge?
-- What is the molecular basis for determining the target fruit-set number?
-- Can perennial plants dynamically adjust their target fruit number each year in response to nutrient availability? Manipulating this signaling pathway could have agricultural applications.
-</p>
+<ul class="pub-note">
+<li>How do fertilization-derived signals function as activators or repressors of abscission?</li>
+<li>How do fertilization-driven and time-dependent signals differ, and where do they converge?</li>
+<li>What is the molecular basis for determining the target fruit-set number?</li>
+<li>Can perennial plants dynamically adjust their target fruit number each year in response to nutrient availability? Manipulating this signaling pathway could have agricultural applications.</li>
+</ul>
 </div>
 </li>
 
@@ -85,7 +85,7 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
 <div>
 <a class="pub-entry" href="https://doi.org/10.1016/j.celrep.2025.116707" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Joohyun Kang, Jung-Min Lee, Kyungyoon Kim, Ahyeon Cheon, Shawn S. Y. Lee, Minsoo Han, Hoon Jung, Sujeong Je, Yasuyo Yamaoka, and Yuree Lee</span>.
-Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.
+<span class="pub-title">Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.</span>
 <em class="pub-journal">Cell Reports</em> 45, 116707 (2026).
 </a>
 <button class="pub-card"
@@ -97,12 +97,12 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
        alt="Hello. I'm error !">
 </button>
 
-<p class="pub-note">
-- Is the stomium cell wall composed solely of pectin?
-- Why and how is epidermal identity regulated by humidity? How do plants sense humidity?
-- What is the mechanism underlying carapace lignin formation? How is it related to the evolutionary origin of lignin?
-- How is the sink–source relationship of cytokinin determined?
-</p>
+<ul class="pub-note">
+<li>Is the stomium cell wall composed solely of pectin?</li>
+<li>Why and how is epidermal identity regulated by humidity? How do plants sense humidity?</li>
+<li>What is the mechanism underlying carapace lignin formation? How is it related to the evolutionary origin of lignin?</li>
+<li>How is the sink–source relationship of cytokinin determined?</li>
+</ul>
 </div>
 </li>
 
@@ -119,7 +119,7 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 <div>
 <a class="pub-entry" href="https://doi.org/10.1016/j.isci.2025.114056" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Ye-Sol Shin, <strong>Woo-Taek Jeon</strong>, Hoon Jung, Thanh Ha Thi Do, and Yuree Lee</span>.
-An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover in <em>Arabidopsis</em>.
+<span class="pub-title">An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover in <em>Arabidopsis</em>.</span>
 <em class="pub-journal">iScience</em> 28, 114056 (2025).
 </a>
 <button class="pub-card"
@@ -143,7 +143,7 @@ An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover 
 <span class="pub-authors">
 Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kwon, Kyungyoon Kim, Sujeong Je, Hoon Jung, Geon Heo, Youngsung Joo, Yasuyo Yamaoka, and Yuree Lee
 </span>.
-Wounding induces multilayered barrier formation in mature leaves via phytohormone signalling and ATML1-mediated epidermal specification.
+<span class="pub-title">Wounding induces multilayered barrier formation in mature leaves via phytohormone signalling and ATML1-mediated epidermal specification.</span>
 <em class="pub-journal">Nature Plants</em> 11, 1298–1315 (2025).
 </a>
 <button class="pub-card"
