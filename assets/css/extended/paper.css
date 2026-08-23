@@ -117,9 +117,12 @@ body:has(.paper-page) {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, .2) 48%, transparent 60%);
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, .42) 48%, transparent 60%);
+  background-size: 220% 220%;
+  background-position: var(--shine-x, 50%) var(--shine-y, 50%);
+  mix-blend-mode: screen;
   opacity: 0;
-  transition: opacity .15s ease;
+  transition: opacity .15s ease, background-position .08s linear;
 }
 
 .paper-page .pub-card:hover::after {
@@ -147,8 +150,10 @@ body:has(.paper-page) {
 
 .image-lightbox__img {
   display: block;
-  max-width: min(96vw, 1500px);
-  max-height: 92vh;
+  width: min(96vw, 1500px);
+  height: 92vh;
+  max-width: none;
+  max-height: none;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 16px 48px rgba(0, 0, 0, .45);
