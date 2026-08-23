@@ -14,7 +14,7 @@ title: "Papers"
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Ahyeon Cheon, and Yuree Lee</span>.
-Anther dehiscence: Mechanisms, regulation, and environmental sensitivity.
+Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW).
 <em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
 </a>
 <button class="pub-card"
@@ -25,6 +25,9 @@ Anther dehiscence: Mechanisms, regulation, and environmental sensitivity.
        src="../images/papers/6.jpg"
        alt="Hello. I'm error !">
 </button>
+<p class="pub-note">
+- The mechanical basis of anther dehiscence—including dehydration and cell-wall modification—appears to require more integrated validation.
+</p>
 </div>
 </li>
 
@@ -44,6 +47,11 @@ Root cap cuticles confer a transient, penetration-optimised phase during early s
        src="../images/papers/5.png"
        alt="Hello. I'm error !">
 </button>
+<p class="pub-note">
+- How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize or establish distinct cuticular states, but the underlying reason remains unclear.
+- How does multilayered root-cap detachment occur? Are non-detached root-cap cells still alive and physically connected, or do they represent attached dead tissue, analogous to marcescence?
+- How does the root-cap cuticle regulate gravitropism?
+</p>
 </div>
 </li>
 
@@ -63,6 +71,12 @@ A hierarchical abscission program regulates reproductive allocation in <em>Prunu
        src="../images/papers/4.jpg"
        alt="Hello. I'm error !">
 </button>
+<p class="pub-note">
+- How do fertilization-derived signals function as activators or repressors of abscission?
+- How do fertilization-driven and time-dependent signals differ, and where do they converge?
+- What is the molecular basis for determining the target fruit-set number?
+- Can perennial plants dynamically adjust their target fruit number each year in response to nutrient availability? Manipulating this signaling pathway could have agricultural applications.
+</p>
 </div>
 </li>
 
@@ -84,7 +98,10 @@ Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by mod
 </button>
 
 <p class="pub-note">
-- memo
+- Is the stomium cell wall composed solely of pectin?
+- Why and how is epidermal identity regulated by humidity? How do plants sense humidity?
+- What is the mechanism underlying carapace lignin formation? How is it related to the evolutionary origin of lignin?
+- How is the sink–source relationship of cytokinin determined?
 </p>
 </div>
 </li>
