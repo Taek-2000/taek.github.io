@@ -10,10 +10,72 @@ title: "Papers"
 <ol class="pub-list">
 
 <li class="pub-item">
+<span class="pub-no">9</span>
+<div>
+<a class="pub-entry" href="https://www.biorxiv.org/content/10.64898/2026.07.24.740467v1.full" target="_blank" rel="noopener noreferrer">
+<span class="pub-authors"><strong>Jeon WT*</strong>, Kim JA*, Cheon A, Shin YS, Lee SSY, and Lee Y</span>.
+<span class="pub-title">A Web-Based Integrated Platform for End-to-End RNA-Seq Analysis with Interactive Visualization in Plant Biology.</span>
+<em class="pub-journal">BioRxiv</em> .
+</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/9.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/9.jpg"
+       alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
+</button>
+</div>
+</li>
+
+<li class="pub-item">
+<span class="pub-no">8</span>
+<div>
+<a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
+<span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT*</strong>, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Lee Y, and Cho KS</span>.
+<span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (Sesamum indicum L.).</span>
+<em class="pub-journal">Plant Physiology</em> (Under revision).
+</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/8.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/8.jpg"
+       alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
+</button>
+</div>
+</li>
+
+
+
+<li class="pub-item">
+<span class="pub-no">7</span>
+<div>
+<a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
+<span class="pub-authors">Kim K, Kang J, <strong>Jeon WT*</strong>, Lee JM, Woo J, Je S, Yamaoka Y, Lee Y</span>.
+<span class="pub-title">Light-triggered ROS signaling shapes abaxial cuticle permeability in developing duckweed fronds.</span>
+<em class="pub-journal">Journal of Experimental Botany</em> (In press).
+</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/7.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/7.jpg"
+       alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
+</button>
+</div>
+</li>
+
+<li class="pub-item">
 <span class="pub-no">6</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Ahyeon Cheon, and Yuree Lee</span>.
+<span class="pub-authors"><strong>Jeon WT</strong>, Cheon A, and Lee Y</span>.
 <span class="pub-title">Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW).</span>
 <em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
 </a>
@@ -36,7 +98,7 @@ title: "Papers"
 <span class="pub-no">5</span>
 <div>
 <a class="pub-entry" href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors"><strong>Woo-Taek Jeon*</strong>, Jeong-A Kim*, Ahyeon Cheon, Ye-Sol Shin, Shawn S. Y. Lee, and Yuree Lee</span>.
+<span class="pub-authors"><strong>Jeon WT*</strong>, Kim JA*, Cheon A, Shin YS, Lee SSY, and Lee Y</span>.
 <span class="pub-title">Root cap cuticles confer a transient, penetration-optimised phase during early seedling establishment.</span>
 <em class="pub-journal">Plant, Cell &amp; Environment</em> 49, 6384–6395 (2026).
 </a>
@@ -50,7 +112,7 @@ title: "Papers"
   <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 <ul class="pub-note">
-<li>How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize or establish distinct cuticular states, but the underlying reason remains unclear.</li>
+<li>How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize distinct cuticular states, but the underlying reason remains unclear.</li>
 <li>How does multilayered root-cap detachment occur? Are non-detached root-cap cells still alive and physically connected, or do they represent attached dead tissue, analogous to marcescence?</li>
 <li>How does the root-cap cuticle regulate gravitropism?</li>
 </ul>
@@ -61,7 +123,7 @@ title: "Papers"
 <span class="pub-no">4</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/hr/uhaf317" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors"><strong>Woo-Taek Jeon*</strong>, Jeong-A Kim*, Ahyeon Cheon*, Shawn S. Y. Lee*, Joohyun Kang, Jung-Min Lee, and Yuree Lee</span>.
+<span class="pub-authors"><strong>Jeon WT*</strong>, Kim JA*, Cheon A*, Lee SSY*, Kang J, Lee JM, and Lee Y</span>.
 <span class="pub-title">A hierarchical abscission program regulates reproductive allocation in <em>Prunus × yedoensis</em> and <em>Prunus sargentii</em>.</span>
 <em class="pub-journal">Horticulture Research</em> 13, uhaf317 (2026).
 </a>
@@ -87,7 +149,7 @@ title: "Papers"
 <span class="pub-no">3</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1016/j.celrep.2025.116707" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors"><strong>Woo-Taek Jeon</strong>, Joohyun Kang, Jung-Min Lee, Kyungyoon Kim, Ahyeon Cheon, Shawn S. Y. Lee, Minsoo Han, Hoon Jung, Sujeong Je, Yasuyo Yamaoka, and Yuree Lee</span>.
+<span class="pub-authors"><strong>Jeon WT</strong>, Kang J, Lee JM, Kim K, Cheon A, Lee SSY, Han M, Jung H, Je S, Yamaoka Y, and Lee Y</span>.
 <span class="pub-title">Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.</span>
 <em class="pub-journal">Cell Reports</em> 45, 116707 (2026).
 </a>
@@ -122,7 +184,7 @@ title: "Papers"
 <span class="pub-no">2</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1016/j.isci.2025.114056" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors">Ye-Sol Shin, <strong>Woo-Taek Jeon</strong>, Hoon Jung, Thanh Ha Thi Do, and Yuree Lee</span>.
+<span class="pub-authors">Shin YS, <strong>Jeon WT</strong>, Jung H, Do THT, and Lee Y</span>.
 <span class="pub-title">An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover in <em>Arabidopsis</em>.</span>
 <em class="pub-journal">iScience</em> 28, 114056 (2025).
 </a>
@@ -146,7 +208,7 @@ title: "Papers"
    target="_blank"
    rel="noopener noreferrer">
 <span class="pub-authors">
-Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kwon, Kyungyoon Kim, Sujeong Je, Hoon Jung, Geon Heo, Youngsung Joo, Yasuyo Yamaoka, and Yuree Lee
+Lee JM, <strong>Jeon WT</strong>, Han M, Choi MS, Kwon M, Kim K, Je S, Jung H, Heo G, Joo Y, Yamaoka Y, and Lee Y
 </span>.
 <span class="pub-title">Wounding induces multilayered barrier formation in mature leaves via phytohormone signalling and ATML1-mediated epidermal specification.</span>
 <em class="pub-journal">Nature Plants</em> 11, 1298–1315 (2025).
