@@ -19,10 +19,10 @@ title: "Papers"
 </a>
 <button class="pub-card"
         type="button"
-        data-image="../images/papers/6.jpg"
+        data-image="../images/papers/6.JPG"
         data-alt="Hello. I'm error !">
   <img class="pub-card__img"
-       src="../images/papers/6.jpg"
+       src="../images/papers/6.JPG"
        alt="Hello. I'm error !">
 </button>
 <ul class="pub-note">
@@ -41,10 +41,10 @@ title: "Papers"
 </a>
 <button class="pub-card"
         type="button"
-        data-image="../images/papers/5.jpg"
+        data-image="../images/papers/5.JPG"
         data-alt="Hello. I'm error !">
   <img class="pub-card__img"
-       src="../images/papers/5.jpg"
+       src="../images/papers/5.JPG"
        alt="Hello. I'm error !">
 </button>
 <ul class="pub-note">
