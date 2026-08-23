@@ -19,18 +19,15 @@ menu:
     - name: Papers
       url: paper/
       weight: 3
-    - name: Ideas
-      url: idea/
-      weight: 4
     - name: Photo
       url: photo/
-      weight: 5
+      weight: 4
     - name: Methods
       url: method/
-      weight: 6
+      weight: 5
     - name: Lab
       url: https://biosci.snu.ac.kr/pcb
-      weight: 7
+      weight: 6
 
 params:
   description: "Woo-Taek Jeon's personal academic website: research, papers, ideas, methods, and photography."
@@ -69,8 +66,6 @@ params:
         url: research/
       - name: Papers
         url: paper/
-      - name: Ideas
-        url: idea/
       - name: Photo
         url: photo/
       - name: Methods
