@@ -10,33 +10,48 @@
 }
 
 .research-page .research-title {
-  display: flex;
-  align-items: baseline;
-  gap: .7rem;
-  margin: 0 0 1.05rem;
-  padding-bottom: .65rem;
-  border-bottom: 1px solid var(--border);
+  display: block;
+  margin: 0 0 1.2rem;
   color: var(--primary);
-  font-size: clamp(1.55rem, 3.1vw, 2.05rem);
-  font-weight: 750;
-  letter-spacing: -.025em;
-  line-height: 1.22;
+  font-size: clamp(1.5rem, 2.7vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -.018em;
+  line-height: 1.28;
 }
 
 .research-page .research-number {
-  flex: 0 0 auto;
+  display: inline-block;
+  margin-right: .45rem;
   color: #356d9f;
-  font-size: .72em;
+  font-size: .56em;
   font-weight: 700;
-  letter-spacing: .04em;
+  letter-spacing: .08em;
+  vertical-align: .18em;
 }
 
 body.dark .research-page .research-number {
   color: #7fc8ff;
 }
 
+.research-page .research-title::after {
+  content: "";
+  display: block;
+  width: 2.25rem;
+  height: 2px;
+  margin-top: .72rem;
+  background: #356d9f;
+  border-radius: 999px;
+}
+
+body.dark .research-page .research-title::after {
+  background: #7fc8ff;
+}
+
 .research-page p {
   margin: .85rem 0;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
 }
 
 .research-page a {
@@ -65,7 +80,6 @@ body.dark .research-page a {
   }
 
   .research-page .research-title {
-    gap: .45rem;
-    font-size: 1.45rem;
+    font-size: 1.4rem;
   }
 }
