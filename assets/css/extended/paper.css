@@ -45,7 +45,10 @@ body:has(.paper-page) {
 .paper-page .pub-entry:visited,
 .paper-page .pub-entry:hover,
 .paper-page .pub-entry:focus {
+  display: block;
   color: var(--primary);
+  text-align: justify;
+  text-align-last: left;
   text-decoration: none !important;
   box-shadow: none !important;
 }
