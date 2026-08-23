@@ -15,7 +15,7 @@ title: "Papers"
 <a class="pub-entry" href="https://www.biorxiv.org/content/10.64898/2026.07.24.740467v1.full" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT*</strong>, Jung H*, Shim D, and Lee Y</span>.
 <span class="pub-title">A Web-Based Integrated Platform for End-to-End RNA-Seq Analysis with Interactive Visualization in Plant Biology.</span>
-<em class="pub-journal">BioRxiv</em> .
+<em class="pub-journal">BioRxiv</em> (Under revision).
 </a>
 <button class="pub-card"
         type="button"
