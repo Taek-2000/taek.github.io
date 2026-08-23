@@ -76,7 +76,8 @@ body:has(.paper-page) {
 .paper-page .pub-card {
   position: relative;
   display: block;
-  width: min(100%, 320px);
+  width: min(100%, 390px);
+  aspect-ratio: 16 / 10;
   margin-top: .9rem;
   padding: 0;
   overflow: hidden;
@@ -106,7 +107,9 @@ body:has(.paper-page) {
 .paper-page .pub-card__img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
+  background: var(--entry);
 }
 
 .paper-page .pub-card::after {
@@ -144,8 +147,9 @@ body:has(.paper-page) {
 
 .image-lightbox__img {
   display: block;
-  max-width: min(92vw, 1200px);
-  max-height: 85vh;
+  max-width: min(96vw, 1500px);
+  max-height: 92vh;
+  object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 16px 48px rgba(0, 0, 0, .45);
 }
@@ -177,7 +181,7 @@ body:has(.paper-page) {
   }
 
   .paper-page .pub-card {
-    width: min(100%, 280px);
+    width: min(100%, 340px);
   }
 }
 
