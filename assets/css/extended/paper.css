@@ -54,6 +54,24 @@ body:has(.paper-page) {
   color: var(--secondary);
 }
 
+/* Make the paper title easy to find at a glance. */
+.paper-page .pub-title {
+  color: #356d9f;
+  font-weight: 650;
+}
+
+body.dark .paper-page .pub-title {
+  color: #7fc8ff;
+}
+
+.paper-page .pub-entry:hover .pub-title {
+  color: #4c82b2;
+}
+
+body.dark .paper-page .pub-entry:hover .pub-title {
+  color: #a7dcff;
+}
+
 .paper-page .pub-journal,
 .paper-page .pub-note {
   color: var(--secondary);
@@ -66,10 +84,18 @@ body:has(.paper-page) {
 }
 
 .paper-page .pub-note {
-  margin: .25rem 0 0;
+  margin: .4rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--secondary);
   font-size: .92rem;
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.5;
+  list-style: disc;
+}
+
+.paper-page .pub-note li {
+  margin: .18rem 0;
+  padding-left: .1rem;
 }
 
 /* Publication image card */
