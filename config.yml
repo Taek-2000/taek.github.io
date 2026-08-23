@@ -57,7 +57,7 @@ params:
   profileMode:
     enabled: true
     title: "Woo-Taek Jeon"
-    subtitle: "Plant scientist interested in plant development, environmental responses, and plant surface biology."
+    subtitle: "Plant scientist in Seoul, South Korea."
     imageUrl: "picture.jpeg"
     imageWidth: 160
     imageHeight: 160
