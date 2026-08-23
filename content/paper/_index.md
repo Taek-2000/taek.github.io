@@ -24,6 +24,7 @@ title: "Papers"
   <img class="pub-card__img"
        src="../images/papers/6.JPG"
        alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 <ul class="pub-note">
 <li>The mechanical basis of anther dehiscence—including dehydration and cell-wall modification—appears to require more integrated validation.</li>
@@ -46,6 +47,7 @@ title: "Papers"
   <img class="pub-card__img"
        src="../images/papers/5.JPG"
        alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 <ul class="pub-note">
 <li>How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize or establish distinct cuticular states, but the underlying reason remains unclear.</li>
@@ -70,6 +72,7 @@ title: "Papers"
   <img class="pub-card__img"
        src="../images/papers/4.jpg"
        alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 <ul class="pub-note">
 <li>How do fertilization-derived signals function as activators or repressors of abscission?</li>
@@ -95,6 +98,7 @@ title: "Papers"
   <img class="pub-card__img"
        src="../images/papers/3.jpg"
        alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 
 <ul class="pub-note">
@@ -129,6 +133,7 @@ title: "Papers"
   <img class="pub-card__img"
        src="../images/papers/2.png"
        alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 </div>
 </li>
@@ -153,6 +158,7 @@ Jung-Min Lee, <strong>Woo-Taek Jeon</strong>, Minsoo Han, Min-Soo Choi, Myung Kw
   <img class="pub-card__img"
        src="../images/papers/1.png"
        alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 </div>
 </li>
