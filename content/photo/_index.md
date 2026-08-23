@@ -274,9 +274,6 @@ title: "Photo"
 <button class="photo-card" type="button" data-image="../images/photo/90.jpg" aria-label="Open photo 90">
   <img src="../images/photo/90.jpg" alt="Photograph 90" loading="lazy">
 </button>
-<button class="photo-card" type="button" data-image="../images/photo/91.jpg" aria-label="Open photo 91">
-  <img src="../images/photo/91.jpg" alt="Photograph 91" loading="lazy">
-</button>
 </div>
 
 <div class="photo-lightbox" id="photo-lightbox" aria-hidden="true">
