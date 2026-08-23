@@ -13,7 +13,7 @@ title: "Papers"
 <span class="pub-no">9</span>
 <div>
 <a class="pub-entry" href="https://www.biorxiv.org/content/10.64898/2026.07.24.740467v1.full" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors"><strong>Jeon WT*</strong>, Kim JA*, Cheon A, Shin YS, Lee SSY, and Lee Y</span>.
+<span class="pub-authors"><strong>Jeon WT*</strong>, Jung H*, Shim D, and Lee Y</span>.
 <span class="pub-title">A Web-Based Integrated Platform for End-to-End RNA-Seq Analysis with Interactive Visualization in Plant Biology.</span>
 <em class="pub-journal">BioRxiv</em> .
 </a>
@@ -33,7 +33,7 @@ title: "Papers"
 <span class="pub-no">8</span>
 <div>
 <a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT*</strong>, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Lee Y, and Cho KS</span>.
+<span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT</strong>, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Lee Y, and Cho KS</span>.
 <span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (Sesamum indicum L.).</span>
 <em class="pub-journal">Plant Physiology</em> (Under revision).
 </a>
@@ -55,7 +55,7 @@ title: "Papers"
 <span class="pub-no">7</span>
 <div>
 <a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors">Kim K, Kang J, <strong>Jeon WT*</strong>, Lee JM, Woo J, Je S, Yamaoka Y, Lee Y</span>.
+<span class="pub-authors">Kim K, Kang J, <strong>Jeon WT</strong>, Lee JM, Woo J, Je S, Yamaoka Y, Lee Y</span>.
 <span class="pub-title">Light-triggered ROS signaling shapes abaxial cuticle permeability in developing duckweed fronds.</span>
 <em class="pub-journal">Journal of Experimental Botany</em> (In press).
 </a>
