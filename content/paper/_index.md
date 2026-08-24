@@ -76,7 +76,7 @@ title: "Papers"
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT</strong>, Cheon A, and Lee Y</span>.
-<span class="pub-title">Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (REVIEW).</span>
+<span class="pub-title">Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (Review paper).</span>
 <em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
 </a>
 <button class="pub-card"
