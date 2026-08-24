@@ -9,13 +9,13 @@ title: "Methods"
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
-<a class="method-card" href="../method/GUS_staining.pdf" target="_blank" rel="noopener noreferrer">
-  <span class="method-card__title">GUS staining </span>
+<a class="method-card" href="../method/GUS_with_acetone_fix.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">GUS staining with acetone fixation</span>
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
-<a class="method-card" href="../method/SEM_preparation_protocol.pdf" target="_blank" rel="noopener noreferrer">
-  <span class="method-card__title">SEM preparation </span>
+<a class="method-card" href="../method/CPD_Sputter_Coating_SEM.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">Critical-point drying and sputter coating for SEM</span>
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
@@ -29,5 +29,9 @@ title: "Methods"
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
-  
+<a class="method-card" href="../method/Amplex_UltraRed.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">Amplex UltraRed</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
 </div>
