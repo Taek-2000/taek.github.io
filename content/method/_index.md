@@ -34,4 +34,20 @@ title: "Methods"
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
+
+<a class="method-card" href="../method/NBT_DAB_staining.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">NBT/DAB staining</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
+<a class="method-card" href="../method/Ruthenium_Red_staining.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">Ruthenium Red staining</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
+<a class="method-card" href="../method/Toluidine_Blue_O_Staining.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">Toluidine Blue O staining</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
 </div>
