@@ -10,6 +10,26 @@ title: "Papers"
 <ol class="pub-list">
 
 <li class="pub-item">
+<span class="pub-no">10</span>
+<div>
+<a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
+<span class="pub-authors"><strong>Jeon WT*</strong>, Lee SSY*, Sung C, Lee JM, Cheon A, Kim B, Lee Y, Joo Y, Noh YS, and Lee Y </span>.
+<span class="pub-title">Shoot loss reveals the latent capacity of Arabidopsis roots to reconstruct the plant body.</span>
+<em class="pub-journal">  </em> (Under review).
+</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/10.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/10.jpg"
+       alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
+</button>
+</div>
+</li>
+
+<li class="pub-item">
 <span class="pub-no">9</span>
 <div>
 <a class="pub-entry" href="https://www.biorxiv.org/content/10.64898/2026.07.24.740467v1.full" target="_blank" rel="noopener noreferrer">
