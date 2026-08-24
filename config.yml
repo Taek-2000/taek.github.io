@@ -59,8 +59,7 @@ params:
     title: "Woo-Taek Jeon"
     subtitle: "Plant scientist in Seoul, South Korea."
     imageUrl: "Profile.jpg"
-    imageWidth: 160
-    imageHeight: 160
+    imageWidth: 300
     buttons:
       - name: Research
         url: research/
