@@ -14,7 +14,7 @@ title: "Papers"
 <div>
 <a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT*</strong>, Lee SSY*, Sung C, Lee JM, Cheon A, Kim B, Lee Y, Joo Y, Noh YS, and Lee Y </span>.
-<span class="pub-title">Shoot loss reveals the latent capacity of Arabidopsis roots to reconstruct the plant body.</span>
+<span class="pub-title">Shoot loss reveals the latent capacity of <em>Arabidopsis</em> roots to reconstruct the plant body.</span>
 <em class="pub-journal">  </em> (Under review).
 </a>
 <button class="pub-card"
@@ -54,7 +54,7 @@ title: "Papers"
 <div>
 <a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT</strong>, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Lee Y, and Cho KS</span>.
-<span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (Sesamum indicum L.).</span>
+<span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (<em>Sesamum indicum L.</em>).</span>
 <em class="pub-journal">Plant Physiology</em> (Under revision).
 </a>
 <button class="pub-card"
