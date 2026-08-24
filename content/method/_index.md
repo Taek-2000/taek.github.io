@@ -2,7 +2,7 @@
 title: "Methods"
 ---
 <div class="methods-page">
-<p class="methods-intro">For our interns</p>
+<p class="methods-intro">For my interns</p>
 
 <a class="method-card" href="../method/Phloroglucinol_HCl_staining_Lignin.pdf" target="_blank" rel="noopener noreferrer">
   <span class="method-card__title">Phloroglucinol–HCl staining (for Lignin)</span>
@@ -69,6 +69,6 @@ title: "Methods"
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
-<p class="methods-intro">SY, JA, AH, SE, YW, H, YD, JS</p>
+<p class="methods-intro">SY (2024.), JA, AH, SE, YW, H, YD (2026 summer), JS</p>
 
 </div>
