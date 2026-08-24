@@ -69,6 +69,6 @@ title: "Methods"
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
-<p class="methods-intro">SY (2024.), JA, AH, SE, YW, H, YD (2026 summer), JS</p>
+<p class="methods-intro">SY(2024-2025), SE(2024 W), JA(2025-), AH(2025-2026), YW(2025-), H(2025-), YD(2026 S), JS(2026-)</p>
 
 </div>
