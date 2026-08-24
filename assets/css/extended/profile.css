@@ -1,0 +1,8 @@
+/* Keep the home profile image in its original aspect ratio. */
+.profile img {
+  width: min(100%, 300px) !important;
+  height: auto !important;
+  max-height: 360px;
+  border-radius: 0 !important;
+  object-fit: contain;
+}
