@@ -50,4 +50,20 @@ title: "Methods"
   <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
 </a>
 
+
+<a class="method-card" href="../method/Aniline_Blue_Staining.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">Aniline Blue staining</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
+<a class="method-card" href="../method/BCECF.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">BCECF staining</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
+<a class="method-card" href="../method/Phloroglucinol_HCl_staining_Lignin.pdf" target="_blank" rel="noopener noreferrer">
+  <span class="method-card__title">Phloroglucinol–HCl staining (lignin)</span>
+  <span class="method-card__meta">Open protocol PDF <span aria-hidden="true">↗</span></span>
+</a>
+
 </div>
