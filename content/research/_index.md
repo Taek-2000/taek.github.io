@@ -5,9 +5,9 @@ title: "Research"
 <div class="research-page">
 
 <section class="research-section">
-<h2 class="research-title"><span class="research-number">01</span> Humidity as a Positional Cue for Epidermal Specification in Plants</h2>
+<h2 class="research-title"><span class="research-number">01</span> Humidity as a Positional Cue</h2>
 
-<p>Plant epidermal identity is developmentally pre-determined through a dedicated epidermal lineage. In specific contexts, however, internal cells can be reprogrammed into epidermal cells through transdifferentiation. Remarkably, even then, only the outermost cell layer acquires epidermal identity. This observation led to the concept of a <em>positional cue</em>, although its nature has remained elusive (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7913478/" target="_blank" rel="noopener noreferrer">Iida and Takada, 2021</a>).</p>
+<p>Plant epidermal identity is developmentally determined through a dedicated epidermal lineage. Under specific conditions, such as wounding, internal cells can undergo transdifferentiation to acquire an epidermal cell fate(<a href="https://www.nature.com/articles/s41477-025-02028-3" target="_blank" rel="noopener noreferrer">Lee et al., 2025</a>). Remarkably, even then, only the outermost cell layer acquires epidermal identity. This observation led to the concept of a <em>positional cue</em>, although its nature has remained elusive (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7913478/" target="_blank" rel="noopener noreferrer">Iida and Takada, 2021</a>).</p>
 
 <p>Our recent work showed that high humidity disrupts the maintenance of epidermal identity. This finding suggests that an positional cue is interpreted, at least in part, through a desiccation-associated cue: a cell recognizes that it is no longer in a persistently hydrated internal environment (<a href="https://www.cell.com/cell-reports/fulltext/S2211-1247(25)01479-2" target="_blank" rel="noopener noreferrer">Jeon et al., 2026</a>). We are now investigating how plants sense humidity and convert this environmental input into signals that specify epidermal cell fate.</p>
 </section>
