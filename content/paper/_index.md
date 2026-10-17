@@ -35,7 +35,7 @@ title: "Papers"
 <a class="pub-entry" href="https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiag762/8916655" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT</strong>, Park M, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Shin C, Lee Y, and Cho KS</span>.
 <span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (<em>Sesamum indicum L.</em>).</span>
-<em class="pub-journal">Plant Physiology</em> (Under revision).
+<em class="pub-journal">Plant Physiology</em> (In press).
 </a>
 <button class="pub-card"
         type="button"
