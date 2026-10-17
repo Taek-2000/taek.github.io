@@ -32,26 +32,6 @@ title: "Papers"
 <li class="pub-item">
 <span class="pub-no">9</span>
 <div>
-<a class="pub-entry" href="https://www.biorxiv.org/content/10.64898/2026.07.24.740467v1.full" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors"><strong>Jeon WT*</strong>, Jung H*, Shim D, and Lee Y</span>.
-<span class="pub-title">A Web-Based Integrated Platform for End-to-End RNA-Seq Analysis with Interactive Visualization in Plant Biology.</span>
-<em class="pub-journal">BioRxiv</em> (Under revision).
-</a>
-<button class="pub-card"
-        type="button"
-        data-image="../images/papers/9.jpg"
-        data-alt="Hello. I'm error !">
-  <img class="pub-card__img"
-       src="../images/papers/9.jpg"
-       alt="Hello. I'm error !">
-  <span class="pub-card__overlay" aria-hidden="true"></span>
-</button>
-</div>
-</li>
-
-<li class="pub-item">
-<span class="pub-no">8</span>
-<div>
 <a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT</strong>, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Lee Y, and Cho KS</span>.
 <span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (<em>Sesamum indicum L.</em>).</span>
@@ -72,7 +52,7 @@ title: "Papers"
 
 
 <li class="pub-item">
-<span class="pub-no">7</span>
+<span class="pub-no">8</span>
 <div>
 <a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Kim K, Kang J, <strong>Jeon WT</strong>, Lee JM, Woo J, Je S, Yamaoka Y, Lee Y</span>.
@@ -92,7 +72,7 @@ title: "Papers"
 </li>
 
 <li class="pub-item">
-<span class="pub-no">6</span>
+<span class="pub-no">7</span>
 <div>
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT</strong>, Cheon A, and Lee Y</span>.
@@ -111,6 +91,26 @@ title: "Papers"
 <ul class="pub-note">
 <li>The mechanical basis of anther dehiscence—including dehydration and cell-wall modification—appears to require more integrated validation.</li>
 </ul>
+</div>
+</li>
+
+<li class="pub-item">
+<span class="pub-no">6</span>
+<div>
+<a class="pub-entry" href="https://link.springer.com/article/10.1007/s12374-026-09533-8" target="_blank" rel="noopener noreferrer">
+<span class="pub-authors"><strong>Jeon WT*</strong>, Jung H*, Shim D, and Lee Y</span>.
+<span class="pub-title">VizR: An Interactive Web-Based Platform for End-to-End RNA-Seq Analysis and Visualization in Plant Biology.</span>
+<em class="pub-journal">Journal of Plant Biology</em> 5, 1-17 (2026).
+</a>
+<button class="pub-card"
+        type="button"
+        data-image="../images/papers/9.jpg"
+        data-alt="Hello. I'm error !">
+  <img class="pub-card__img"
+       src="../images/papers/9.jpg"
+       alt="Hello. I'm error !">
+  <span class="pub-card__overlay" aria-hidden="true"></span>
+</button>
 </div>
 </li>
 
