@@ -77,7 +77,7 @@ title: "Papers"
 <a class="pub-entry" href="https://doi.org/10.1093/pcp/pcag115" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT</strong>, Cheon A, and Lee Y</span>.
 <span class="pub-title">Anther dehiscence: Mechanisms, regulation, and environmental sensitivity (Review paper).</span>
-<em class="pub-journal">Plant and Cell Physiology</em> 67, pcag115 (2026).
+<em class="pub-journal">Plant and Cell Physiology</em> 67(12), pcag115 (2026).
 </a>
 <button class="pub-card"
         type="button"
@@ -100,7 +100,7 @@ title: "Papers"
 <a class="pub-entry" href="https://link.springer.com/article/10.1007/s12374-026-09533-8" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT*</strong>, Jung H*, Shim D, and Lee Y</span>.
 <span class="pub-title">VizR: An Interactive Web-Based Platform for End-to-End RNA-Seq Analysis and Visualization in Plant Biology.</span>
-<em class="pub-journal">Journal of Plant Biology</em> 5, 1-17 (2026).
+<em class="pub-journal">Journal of Plant Biology</em> 69(5), 1-17 (2026).
 </a>
 <button class="pub-card"
         type="button"
@@ -120,7 +120,7 @@ title: "Papers"
 <a class="pub-entry" href="https://onlinelibrary.wiley.com/doi/full/10.1111/pce.70622" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT*</strong>, Kim JA*, Cheon A, Shin YS, Lee SSY, and Lee Y</span>.
 <span class="pub-title">Root cap cuticles confer a transient, penetration-optimised phase during early seedling establishment.</span>
-<em class="pub-journal">Plant, Cell &amp; Environment</em> 49, 6384–6395 (2026).
+<em class="pub-journal">Plant, Cell &amp; Environment</em> 49(9), 6384–6395 (2026).
 </a>
 <button class="pub-card"
         type="button"
@@ -145,7 +145,7 @@ title: "Papers"
 <a class="pub-entry" href="https://doi.org/10.1093/hr/uhaf317" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT*</strong>, Kim JA*, Cheon A*, Lee SSY*, Kang J, Lee JM, and Lee Y</span>.
 <span class="pub-title">A hierarchical abscission program regulates reproductive allocation in <em>Prunus × yedoensis</em> and <em>Prunus sargentii</em>.</span>
-<em class="pub-journal">Horticulture Research</em> 13, uhaf317 (2026).
+<em class="pub-journal">Horticulture Research</em> 13(2), uhaf317 (2026).
 </a>
 <button class="pub-card"
         type="button"
@@ -171,7 +171,7 @@ title: "Papers"
 <a class="pub-entry" href="https://doi.org/10.1016/j.celrep.2025.116707" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors"><strong>Jeon WT</strong>, Kang J, Lee JM, Kim K, Cheon A, Lee SSY, Han M, Jung H, Je S, Yamaoka Y, and Lee Y</span>.
 <span class="pub-title">Humidity shapes reproductive development in <em>Arabidopsis thaliana</em> by modulating epidermal identity and cell wall dynamics.</span>
-<em class="pub-journal">Cell Reports</em> 45, 116707 (2026).
+<em class="pub-journal">Cell Reports</em> 45(1), 116707 (2026).
 </a>
 <button class="pub-card"
         type="button"
@@ -206,7 +206,7 @@ title: "Papers"
 <a class="pub-entry" href="https://doi.org/10.1016/j.isci.2025.114056" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Shin YS, <strong>Jeon WT</strong>, Jung H, Do THT, and Lee Y</span>.
 <span class="pub-title">An RbohC and RbohE-mediated ROS oscillatory circuit regulates root cap turnover in <em>Arabidopsis</em>.</span>
-<em class="pub-journal">iScience</em> 28, 114056 (2025).
+<em class="pub-journal">iScience</em> 28(12), 114056 (2025).
 </a>
 <button class="pub-card"
         type="button"
@@ -231,7 +231,7 @@ title: "Papers"
 Lee JM, <strong>Jeon WT</strong>, Han M, Choi MS, Kwon M, Kim K, Je S, Jung H, Heo G, Joo Y, Yamaoka Y, and Lee Y
 </span>.
 <span class="pub-title">Wounding induces multilayered barrier formation in mature leaves via phytohormone signalling and ATML1-mediated epidermal specification.</span>
-<em class="pub-journal">Nature Plants</em> 11, 1298–1315 (2025).
+<em class="pub-journal">Nature Plants</em> 11(7), 1298–1315 (2025).
 </a>
 <button class="pub-card"
         type="button"
