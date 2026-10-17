@@ -32,8 +32,8 @@ title: "Papers"
 <li class="pub-item">
 <span class="pub-no">9</span>
 <div>
-<a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
-<span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT</strong>, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Lee Y, and Cho KS</span>.
+<a class="pub-entry" href="https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiag762/8916655" target="_blank" rel="noopener noreferrer">
+<span class="pub-authors">Lee E*, Lee J*, Kim S*, Lee J, Han M, <strong>Jeon WT</strong>, Park M, Lee MH, Kim J, Kim S, An YJ, Oh E, Kim MY, Lee J, Shin C, Lee Y, and Cho KS</span>.
 <span class="pub-title">Coordination of lignin and pectin remodeling by a NAC transcription factor regulates seed abscission in sesame (<em>Sesamum indicum L.</em>).</span>
 <em class="pub-journal">Plant Physiology</em> (Under revision).
 </a>
@@ -54,7 +54,7 @@ title: "Papers"
 <li class="pub-item">
 <span class="pub-no">8</span>
 <div>
-<a class="pub-entry" href="" target="_blank" rel="noopener noreferrer">
+<a class="pub-entry" href="https://academic.oup.com/jxb/advance-article/doi/10.1093/jxb/erag360/8772242" target="_blank" rel="noopener noreferrer">
 <span class="pub-authors">Kim K, Kang J, <strong>Jeon WT</strong>, Lee JM, Woo J, Je S, Yamaoka Y, Lee Y</span>.
 <span class="pub-title">Light-triggered ROS signaling shapes abaxial cuticle permeability in developing duckweed fronds.</span>
 <em class="pub-journal">Journal of Experimental Botany</em> (In press).
