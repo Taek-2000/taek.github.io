@@ -132,8 +132,8 @@ title: "Papers"
   <span class="pub-card__overlay" aria-hidden="true"></span>
 </button>
 <ul class="pub-note">
-<li>How do the cuticles of the columella and lateral root cap differ? These cell types seem to recognize distinct cuticular states, but the underlying reason remains unclear.</li>
-<li>How does multilayered root-cap detachment occur? Are non-detached root-cap cells still alive and physically connected, or do they represent attached dead tissue, analogous to marcescence?</li>
+<li>How do the cuticles of the columella and lateral root cap differ? </li>
+<li>How does multilayered root-cap detachment occur? Are non-detached columella cells still alive and physically connected, or do they represent attached dead tissue, analogous to marcescence?</li>
 <li>How does the root-cap cuticle regulate gravitropism?</li>
 </ul>
 </div>
